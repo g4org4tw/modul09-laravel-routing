@@ -1,0 +1,52 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+// ===== CSS Portofolio =====
+
+/* Scroll halus saat klik menu */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Agar judul section tidak tertutup navbar fixed saat di-scroll */
+section {
+    scroll-margin-top: 70px;
+}
+
+/* Warna tema sendiri */
+.bg-tema {
+    background-color: #0d6efd !important;
+}
+
+.text-tema {
+    color: #0d6efd !important;
+}
+
+/* Efek hover pada kartu proyek */
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Link navbar berubah warna saat hover */
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Footer */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
